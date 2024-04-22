@@ -1,0 +1,226 @@
+.evenly
+{
+    justify-content: space-evenly;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.border-none
+{
+    border-style: none;
+}
+
+.gap
+{
+    gap: 5px;
+}
+
+.gap-10
+{
+    gap: 10px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu
+{
+    position: static !important;
+    transform: none !important;
+}
+
+.top
+{
+    top: 0px;
+}
+
+h1
+{
+    margin-top: 14%;
+}
+
+.background
+{
+    background-image: url("./Image/code.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.background a
+{
+    color: white;
+}
+
+.light-gray
+{
+    background-color: lightgray;
+}
+
+p, a, .size
+{
+    font-size: .75em;
+}
+
+.textarea
+{
+    width: 250px;
+    height: 100px;
+}
+
+.margin-left-25
+{
+    margin-left: 25%;
+}
+
+.start
+{
+    text-align: start;
+}
+
+.phone
+{
+    font-size: 7px;
+}
+
+.link
+{
+    font-size: 13px;
+}
+
+.nav-item:hover
+{
+    border-bottom: 3px solid rgb(92, 98, 105);
+    color: white;
+}
+
+.animation
+{
+  width: 18ch;
+  animation: typing 5s steps(77), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+}
+
+.animation p
+{
+    font-size: 0.23em;
+}
+
+#aboutme
+{
+    padding-top: 1px;
+}
+
+@keyframes typing 
+{
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  @keyframes blink
+{
+    from, to { border-color: transparent }
+    50% { border-color: cyan; }
+}
+
+@media screen and (min-width: 768px)
+{
+    h1
+    {
+        margin-top: 8%;
+    }
+
+    .navbar
+    {
+        padding: 2%;
+    }
+
+    .phone
+    {
+        font-size: 15px;
+    }
+
+    .link
+    {
+        font-size: 18px;
+    }
+
+    .animation
+    {
+        width: 41ch;
+    }
+
+    .animation p, p, a, .size
+    {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    h1
+    {
+        margin-top: 4%;
+    }
+
+    .navbar
+    {
+        padding: 1%;
+    }
+
+    .phone, .link
+    {
+        font-size: 16px;
+    }
+
+    .projet
+    {
+        transition: transform .2s;
+    }
+
+    .projet:hover
+    {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .projet img:hover
+    {
+        cursor: pointer;
+    }
+
+    .margin-bottom-50
+    {
+        margin-bottom: 50px !important;
+    }
+
+    .animation
+    {
+        width: 44ch;
+        font-size: 2em;
+    }
+
+    .animation p, p, a, .size
+    {
+        font-size: 18px;
+    }
+
+    .width-50
+    {
+        width: 50%;
+    }
+}

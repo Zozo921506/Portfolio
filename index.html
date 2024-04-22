@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+   <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin = "anonymous">
+   <link rel = "shortcut icon" href = "./Image/favicon.ico">
+   <link rel = "stylesheet" href = "./style.css">
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <script src = "./Script/email.js"> </script>
+    <title> Falla Enzo Portfolio </title>
+</head>
+<body class = "bg-dark">
+    <nav class = "navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-4 top">
+        <a class = "navbar-brand" href = "#"> Navbar </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>        
+        <div class = "collapse navbar-collapse" id = "navbarNavDropdown">
+            <ul class = "navbar-nav">
+                <li class = "nav-item active"> <a href = "#aboutme" class = "nav-link"> A propos de moi </a> </li>
+                <li class = "nav-item active"> <a href = "#projet" class = "nav-link"> Mes projets </a> </li>
+                <li class = "nav-item active"> <a href = "#contact" class = "nav-link"> Contact </a> </li>
+            </ul>
+        </div>
+    </nav>
+    <section id = "aboutme" class = "mb-3 background">
+        <h1> <strong>A propos de moi</strong> </h1>
+        <div class = "d-flex justify-content-center mb-2 mt-2">
+            <img src = "./Image/photo.jpg" alt = "photo de profile" class = "w-50 h-auto rounded-circle">
+        </div>
+        <h2 class = "text-center mb-4 mt-4"> <strong>Enzo Falla</strong> </h2>
+        <h4 class = "mt-2 mb-3"> <strong>Description</strong> </h4>
+        <div class = "mb-2 width-50">
+            <div class = "animation">
+            <p class = "mb-2 mt-2"> Je m'appelle Enzo Falla et je suis en formation pour devenir développeur web. </p>
+            <p class = "mb-2 mt-2"> Je suis à la recherche d'une alternance pour septembre 2024 à novembre 2025.</p>
+            <p class = "mb-2 mt-2"> Je suis calme, patient, attentif et autonome. </p>
+            </div>
+        </div>
+        <div class = "d-flex gap-10 margin-bottom-50">
+            <a href = "CV_Falla_Enzo.pdf" target = "_blank" class = "size"> <strong>Visualiser mon CV</strong> </a>
+            <a href = "CV_Falla_Enzo.pdf" download = "CV_Falla_Enzo" class = "mb-3 size"> <strong>Télécharger mon CV</strong> </a>
+        </div>
+        <h4 class = "mb-3 mt-2"> <strong>Mes diplômes</strong> </h4>
+        <p class = "margin-bottom-50 mb-4"> Baccalauréat avec spécialité Mathématiques et NSI (Numérique Sciences de l'Informatique) </p>
+        <h4 class = "mb-3 mt-2"> <strong>Mes hobbies</strong> </h4>
+        <ul class = "mb-3 d-flex justify-content-around">
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/manette.svg" alt = "jeux vidéo" class = "w-100 h-auto">
+                    <p class = "phone"> Jeux Vidéo </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/manga.svg" alt = "manga/animé" class = "w-100 h-auto">
+                    <p class = "phone"> Manga/Animés </p> 
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/informatique.svg" alt = "informatique" class = "w-100 h-auto">
+                    <p class = "phone margin-bottom-50"> Informatique </p>
+                </div>
+            </li>
+        </ul>
+        <h4> <strong>Compétences</strong> </h4>
+        <ul class = "d-flex evenly">
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/html.svg" alt = "logo html" class = "w-100 h-auto">
+                    <p class = "phone"> HTML </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/css.svg" alt = "logo css" class = "w-100 h-auto"> 
+                    <p class = "phone"> CSS </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center"> 
+                    <img src = "./Image/javascript.svg" alt = "logo javascript" class = "w-100 h-auto">
+                    <p class = "phone"> JavaScript </p> 
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center"> 
+                    <img src = "./Image/php.svg" alt = "logo php" class = "w-100 h-auto"> 
+                    <p class = "phone"> PHP </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/sql.svg" alt = "logo sql" class = "w-100 h-auto"> 
+                    <p class = "phone"> SQL </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/scss.svg" alt = "logo sass" class = "w-100 h-auto">
+                    <p class = "phone"> SCSS </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/react.svg" alt = "logo react" class = "w-100 h-auto">
+                    <p class = "phone"> React </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/docker.svg" alt = "logo docker" class = "w-100 h-auto">
+                    <p class = "phone"> Docker </p>
+                </div>
+            </li>
+            <li> 
+                <div class = "d-block text-center">
+                    <img src = "./Image/github.svg" alt = "logo github" class = "w-100 h-auto">
+                    <p class = "phone"> Github </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id = "projet" class = "mb-3 bg-dark text-white">
+        <h1 class = "mt-0"> <strong>Mes projets</strong> </h1>
+        <div class = "dropdown mb-2 d-lg-none">
+            <button class = "btn btn-secondary dropdown-toggle w-100" type = "button" id = "dropdownMenuButton2" data-bs-toggle = "dropdown" aria-expanded = "false"> My cinema </button>
+            <ul class = "dropdown-menu bg-dark text-white" aria-labelledby = "dropdownMenuButton2">
+                <li> <img src = "./Image/cinema.png" alt = "cinema" class = "w-100 h-auto">
+                    <p> Durant ce projet, je devais faire un site de cinéma où l'on pouvait rechercher un film par nom/catégories, de pouvoir voir la liste des membres et de leurs grades. Ainsi que de pouvoir modifier ces derniers, de plus, on devait pouvoir ajouter une séance. </p>
+                    <label> Langages utilisés: </label>
+                    <ul class = "d-flex evenly">
+                        <li> <img src = "./Image/php.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/html.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/css.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/javascript.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/sql.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "dropdown mb-2 d-lg-none">
+            <button class = "btn btn-secondary dropdown-toggle w-100" type = "button" id = "dropdownMenuButton3" data-bs-toggle = "dropdown" aria-expanded = "false"> My meetic </button>
+            <ul class = "dropdown-menu bg-dark text-white" aria-labelledby = "dropdownMenuButton3">
+                <li> <img src = "./Image/meetic.png" alt = "meetic" class = "w-100 h-auto">
+                    <p> Durant ce projet, je devais faire un site ayant les fonctionnalités de meetic ayant pour contrainte de vérifier si l'utilisateur est majeur ou non. Si l'utilisateur est mineur, il ne peut pas créer de compte et accéder aux fonctionnalités qui sont la recherche par genre, par tranche d'âge et par localisation. Je devais également faire un système de connexion avec les informations de l'utilisateur. </p>
+                    <label> Langages utilisés: </label>
+                    <ul class = "d-flex evenly">
+                        <li> <img src = "./Image/php.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/html.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/css.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/sql.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "dropdown mb-2 d-lg-none">
+            <button class = "btn btn-secondary dropdown-toggle w-100" type = "button" id = "dropdownMenuButton4" data-bs-toggle = "dropdown" aria-expanded = "false"> Framework CSS </button>
+            <ul class = "dropdown-menu bg-dark text-white" aria-labelledby = "dropdownMenuButton4">
+                <li> <img src = "./Image/framework.png" alt = "framework" class = "w-100 h-auto">
+                    <p> Durant ce projet, je devais reproduire certaines fonctionnalités de bootstrap que ce soit la barre de navigation, le système de grille ou les boutons. </p>
+                    <label> Langages utilisés: </label>
+                    <ul class = "d-flex evenly">
+                        <li> <img src = "./Image/html.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/css.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/scss.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "dropdown mb-2 d-lg-none">
+            <button class = "btn btn-secondary dropdown-toggle w-100" type = "button" id = "dropdownMenuButton5" data-bs-toggle = "dropdown" aria-expanded = "false"> Puissance 4 </button>
+            <ul class = "dropdown-menu bg-dark text-white" aria-labelledby = "dropdownMenuButton5">
+                <li> <img src = "./Image/puissance4.png" alt = "puissance 4" class = "w-100 h-auto">
+                    <p> Durant ce projet, je devais refaire un jeu de société iconique qui est le puissance 4. Je devais le faire en module. L'objectif de ce jeu est très simple, le premier joueur qui aligne horizontalement ou verticalement ou en diagonnales 4 pions de la même couleur remporte la partie. </p>
+                    <label> Langages utilisés: </label>
+                    <ul class = "d-flex evenly">
+                        <li> <img src = "./Image/html.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/css.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/javascript.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "dropdown mb-2 d-lg-none">
+            <button class = "btn btn-secondary dropdown-toggle w-100" type = "button" id = "dropdownMenuButton6" data-bs-toggle = "dropdown" aria-expanded = "false"> Twitter </button>
+            <ul class = "dropdown-menu bg-dark text-white" aria-labelledby = "dropdownMenuButton6">
+                <li> <img src = "./Image/twitter.png" alt = "twitter" class = "w-100 h-auto">
+                    <p> Durant ce projet, je devais refaire twitter et ses fonctionnalités que se soit de pouvoir se connecter, tweeter, retweeter, répondre au tweet et au messages, liker un tweet, un tweet avec 140 caractères maximum, pouvoir voir ses abonnés et ses abonnement et rechercher par tags de l'utilisateur. </p>
+                    <label> Langages utilisés: </label>
+                    <ul class = "d-flex evenly">
+                        <li> <img src = "./Image/html.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/css.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/php.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/javascript.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/sql.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "dropdown mb-2 d-lg-none">
+            <button class = "btn btn-secondary dropdown-toggle w-100" type = "button" id = "dropdownMenuButton7" data-bs-toggle = "dropdown" aria-expanded = "false"> Spotify </button>
+            <ul class = "dropdown-menu bg-dark text-white" aria-labelledby = "dropdownMenuButton7">
+                <li> <img src = "./Image/spotify.png" alt = "spotify" class = "w-100 h-auto">
+                    <p> Durant ce projet, je devais reproduire certaines fonctionnalités de spotify qui sont la recherche, les albums et leurs détails, les genres et leurs détails et les artistes et leurs détails. </p>
+                    <label> Langages utilisés: </label>
+                    <ul class = "d-flex evenly">
+                        <li> <img src = "./Image/react.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/docker.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                        <li> <img src = "./Image/css.svg" alt = "logo html" class = "w-100 h-auto"> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "d-none d-lg-flex evenly mb-3">
+            <div class = "projet">
+                <p> <strong>My cinema</strong> </p>
+                <button type = "button" name = "cinema" id = "cinema" class = "border-none bg-dark"> <img src = "./Image/cinema.png" alt = "cinema" class = "w-100 h-auto"> </button>
+            </div>
+            <div class = "projet">
+                <p> <strong>My meetic</strong> </p>
+                <button type = "button" name = "meetic" id = "meetic" class = "border-none bg-dark"> <img src = "./Image/meetic.png" alt = "meetic" class = "w-100 h-auto"> </button>
+            </div>
+            <div class = "projet">
+                <p> <strong>Framework CSS</strong> </p>
+                <button type = "button" name = "framework" id = "framework" class = "border-none bg-dark"> <img src = "./Image/framework.png" alt = "framework" class = "w-100 h-auto"> </button>
+            </div>
+            <div class = "projet">
+                <p> <strong>Puissance 4</strong> </p>
+                <button type = "button" name = "puissance" id = "puissance" class = "border-none bg-dark"> <img src = "./Image/puissance4.png" alt = "puissance4" class = "w-100 h-auto"> </button>
+            </div>
+            <div class = "projet">
+                <p> <strong>Twitter</strong> </p>
+                <button type = "button" name = "twitter" id = "twitter" class = "border-none bg-dark"> <img src = "./Image/twitter.png" alt = "twitter" class = "w-100 h-auto"> </button>
+            </div>
+            <div class = "projet">
+                <p> <strong>Spotify</strong> </p>
+                <button type = "button" name = "spotify" id = "spotify" class = "border-none bg-dark"> <img src = "./Image/spotify.png" alt = "spotify" class = "w-100 h-auto"> </button>
+            </div>
+        </div>
+        <div class = "d-none d-lg-flex bg-dark text-white" id = "info"></div>
+    </section>
+    <section id = "contact" class = "light-gray">
+        <h1> <strong>Contact</strong> </h1>
+        <div class = "d-flex gap">
+            <p class = "link"> LinkeDIn </p>
+            <a href = "https://www.linkedin.com/in/enzo-falla-epitech/" class = "link"> enzo-falla-epitech </a>
+        </div>
+        <div class = "d-flex gap">
+            <p class = "link"> Github </p>
+            <a href = "https://github.com/Zozo921506?tab=repositories" class = "link"> Zozo921506-repositories </a>
+        </div>
+        <form id = "form">
+            <div>
+                <label for = "email"> Votre email: </label>
+                <input type = "email" placeholder = "example@example.com" id = "email" name = "email" required>
+            </div>
+            <div>
+                <label for = "nom"> Nom: </label>
+                <input type = "text" name = "nom" id = "nom" required>
+            </div>
+            <div class = "mb-3">
+                <label for = "objet"> Objet: </label>
+                <input type = "text" name = "objet" id = "objet" required>
+            </div>
+            <div class = "mb-2 d-block">
+                <p> Votre message: </p>
+                <textarea placeholder = "Je suis un message envoyé à example@gmail.com" id = "message" name = "message" class = "textarea" required></textarea>
+            </div>
+            <button type = "submit"> Envoyer </button>
+        </form>
+    </section>
+    <footer class = "bg-dark">
+        <br>
+        <br>
+        <br>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src = "./Script/info.js"> </script>
+    <script src = "./Script/send_mail.js"> </script>
+</body>
+</html>
